@@ -25,12 +25,6 @@ module Aoc2021
           coordinates[0..1].reduce(&:*)
         end
 
-        def compute_position_with_aim
-          commands = parse_commands
-
-          return 0 if commands.empty?
-        end
-
         private
 
         def parse_commands
