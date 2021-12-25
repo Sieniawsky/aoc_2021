@@ -20,7 +20,7 @@ module Aoc2021
           windowed_depths = []
           index = 0
 
-          while true
+          loop do
             depths_for_window = depths[index..index + 2]
             break if depths_for_window.size < 3
 
